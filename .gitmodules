@@ -1,0 +1,3 @@
+[submodule "lib/MyShell"]
+	path = lib/MyShell
+	url = git@github.com:Hypsurus/MyShell.git
