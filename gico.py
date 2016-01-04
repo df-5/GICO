@@ -151,7 +151,7 @@ class GICO(object):
         print_info("\033[01;37;44mIt may take awhile, read the news or eat something...\033[00m")
         for repository in _REPOS:
             counter += 1
-            sys.stdout.write("> Connectiong to %s (%d) of (%d) ...\n" % ( repository.split("/")[0], counter, repos_len ) )
+            sys.stdout.write("> Connecting to %s (%d) of (%d) ...\n" % ( repository.split("/")[0], counter, repos_len ) )
             self.get_hook(repository, download=True)
 
     def read_local_repo(self, ro=0, ro2=0, match=None, save=False, in_file=None, ret=False):
